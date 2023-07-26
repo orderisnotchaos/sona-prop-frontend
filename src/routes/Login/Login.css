@@ -1,0 +1,42 @@
+
+
+.login-box{
+    display: flex;
+    flex-wrap:wrap;
+    position:absolute;
+    top: 45vh;
+    left:45vw;
+    width: 30%;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+.login-title{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.user-input-container{
+    display: flex;
+    padding-left:5%;
+    width: 100%;
+}
+
+.password-input-container{
+    display: flex;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.login-label{
+    display: flex;
+    width: 40%;
+}
+
+.login-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

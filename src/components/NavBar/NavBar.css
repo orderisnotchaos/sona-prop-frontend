@@ -1,0 +1,23 @@
+.navbar-header{
+    display: flex;
+}
+
+.header-ul{
+    width: 67%;
+    padding: 0;
+    display: flex;    
+    list-style-type: none;
+}
+
+.header-li{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    padding-left:5px;
+    padding-right:5px;
+    align-items: center;
+}
+
+.header-li:hover{
+    cursor: pointer;
+}
