@@ -1,5 +1,7 @@
 .navbar-header{
     display: flex;
+    background-color: rgb(233, 230, 230);
+    height: 65px;
 }
 
 .header-ul{
@@ -20,4 +22,65 @@
 
 .header-li:hover{
     cursor: pointer;
+}
+
+.header-ul-hidden{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap:wrap;
+    opacity: 1;
+    width: 92%;
+    left:4%;
+    top: 65px;
+    height: 375px;
+    margin: 0;
+    background-color: lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-li-hidden{
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.header-location-ul{
+    list-style-type: none;
+    padding:0
+}
+
+.header-property-type-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-ambients-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-characteristics-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-services-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-hidden-li{
+    padding-top:5px;
+}
+
+
+#hidden-header-ul-1{
+    display: none;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to{opacity: 1;}
 }
